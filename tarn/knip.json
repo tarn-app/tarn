@@ -1,0 +1,23 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "entry": [
+    "app/**/*.{ts,tsx}",
+    "src/**/*.{ts,tsx}",
+    "plugins/*.js"
+  ],
+  "project": [
+    "app/**/*.{ts,tsx}",
+    "src/**/*.{ts,tsx}",
+    "plugins/*.js",
+    "eslint-rules/*.js"
+  ],
+  "ignore": [
+    "**/__tests__/**"
+  ],
+  "ignoreDependencies": [
+    "react-test-renderer",
+    "expo-updates",
+    "expo-system-ui",
+    "@expo/config-plugins"
+  ]
+}
