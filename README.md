@@ -92,7 +92,7 @@ Requires Node.js 18+, Expo CLI, and EAS CLI. Native builds required (no Expo Go)
 - [x] Core encryption (Phase 1)
 - [x] Cycle tracking (Phase 2)
 - [x] Predictions and insights (Phase 3)
-- [ ] Advanced security features (Phase 4)
+- [x] Advanced security features (Phase 4)
 - [ ] Polish and accessibility (Phase 5)
 - [ ] Public release (Phase 6)
 
