@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Tarn",
+    "slug": "tarn",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "tarn",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FAFBFC"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tarn.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#FAFBFC"
+      },
+      "edgeToEdgeEnabled": true,
+      "allowBackup": false,
+      "package": "com.tarn.app"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-sqlite",
+        {
+          "useSQLCipher": true
+        }
+      ],
+      "expo-secure-store",
+      [
+        "expo-alternate-app-icons",
+        {
+          "icons": {
+            "calculator": "./assets/icons/calculator.png",
+            "notes": "./assets/icons/notes.png",
+            "weather": "./assets/icons/weather.png"
+          }
+        }
+      ],
+      "expo-localization",
+      "./plugins/withExcludeFromRecents.js"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "d52f427b-5881-4c04-8414-dcb340cee9f8"
+      }
+    }
+  }
+}
