@@ -1,7 +1,7 @@
 # Tarn Threat Model
 
-**Version:** 1.2-draft
-**Last updated:** 2026-02-04
+**Version:** 1.0
+**Last updated:** 2026-02-14
 **Status:** Open for community review
 
 This document describes who Tarn protects, what it protects against, what it cannot protect against, and the specific technical mechanisms behind each defense. If you find a flaw, please report it via our [security disclosure process](SECURITY.md).
@@ -663,3 +663,4 @@ See [SECURITY.md](SECURITY.md) for full details.
 | 1.0-draft | 2026-02-02 | Initial threat model |
 | 1.1-draft | 2026-02-02 | Added BBT, cervical mucus, ovulation detection, symptom insights, cycle report, and phase guide to data sensitivity analysis. Added limitations #7-9. Updated duress mode spec. Added design tradeoffs for BBT, mucus, cycle report, and inclusive language. |
 | 1.2-draft | 2026-02-04 | Updated statistics: 14 states with total bans (26M women of reproductive age), 18 states with restrictive policies. Added HIPAA Reproductive Health Rule vacatur (June 2025). Updated app data sharing stat to 71% (2025 BMC study). Added iOS 18 inactivity reboot section (72-hour auto-reboot to BFU state, GrayKey blocked on iOS 18.1). Updated Nebraska case with sentencing outcomes (90 days jail for Celeste, up to 5 years for Jessica). Noted Euki is now open source (2025). |
+| 1.0 | 2026-02-14 | Public release. Finalized from draft. All documented features implemented and tested. |

@@ -85,7 +85,7 @@ Requires Node.js 18+, Expo CLI, and EAS CLI. Native builds required (no Expo Go)
 
 ## Project Status
 
-**Status: In Development**
+**Status: v1.0**
 
 - [x] Threat model published
 - [x] Security policy published
@@ -94,7 +94,7 @@ Requires Node.js 18+, Expo CLI, and EAS CLI. Native builds required (no Expo Go)
 - [x] Predictions and insights (Phase 3)
 - [x] Advanced security features (Phase 4)
 - [x] Polish and accessibility (Phase 5)
-- [ ] Public release (Phase 6)
+- [x] Public release (Phase 6)
 
 ## Documentation
 
@@ -121,7 +121,7 @@ Areas where we especially need help:
 
 ## Tech Stack
 
-- React Native + Expo (SDK 52+)
+- React Native + Expo (SDK 54)
 - SQLCipher via expo-sqlite
 - Argon2id via react-native-argon2
 - TypeScript
