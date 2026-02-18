@@ -52,7 +52,7 @@ For the complete analysis, read the [threat model](THREAT-MODEL.md).
 
 ### App Stores
 
-- **iOS:** [Coming soon]
+- **iOS:** [App Store](https://apps.apple.com/us/app/tarn/id6759208133)
 - **Android (Google Play):** [Coming soon]
 - **Android (F-Droid):** [Coming soon]
 
